@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured">
+  <test name="Sample Test">
+    <classes>
+      <class name="weather_RA"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
