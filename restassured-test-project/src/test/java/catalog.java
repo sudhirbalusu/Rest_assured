@@ -11,7 +11,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
-public class weather_RA {
+public class catalog {
   @Test
   //(dataProvider = "dp")
   public void f() {
@@ -25,7 +25,7 @@ public class weather_RA {
 	  
 	  // Make a request to the server by specifying the method Type and the method URL.
 	  // This will return the Response from the server. Store the response in a variable.
-	  Response response = httpRequest.request(Method.GET, "/Hyderabad");
+	  //Response response = httpRequest.request(Method.GET, "/Hyderabad");
 	  
 	  int respCode = response.getStatusCode();
 	  
